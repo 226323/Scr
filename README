@@ -1,0 +1,27 @@
+Na 3
+
+git config --global user.name "Maciej Opryszak"  - ustawianie danych osobowych na gicie
+git config --global user.email 226323@student.pwr.wroc.pl  - ustawianie emaila na gicie
+git config --global core.editor code::blocks  - ustawianie domyślnego edytora
+git config --global merge.tool vimdiff  - ustawianie domyślnego narzędzia obsługi różnic
+git config --list  - wyświetla listę ustawień, oto moja lista ustawień:
+user.email=226323@student.pwr.wroc.pl
+user.name=Maciej Opryszak
+push.default=simple
+core.editor=code::blocks
+merge.tool=vimdiff
+
+
+Na 4
+
+git init  - zainicjalizowanie gita w katalogu
+git add index.html  - dodanie pliku index.html
+git add README  - dodanie pliku README
+git commit -m "SCR"  - zaktualizowanie lokalne plików w gicie
+git add style.css  -dodanie pliku style.css
+git status  - sprawdzenie aktualnego stanu gita, pokazał on nam że od ostatniego commita został dodany plik style.css a zmodyfikowany plik index.html
+git add index.html  - dodanie ponownie, aby git uwzględnił modyfikacje pliku
+git add README  - jak wyżej
+git commit -m "SCR"  
+
+
