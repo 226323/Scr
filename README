@@ -25,3 +25,38 @@ git add README  - jak wyżej
 git commit -m "SCR"  
 
 
+Na 5
+
+ git log  - pokazanie ostantich zmian na repozytorium //czas serwerowy mam przesunięty o +2 godziny
+commit 30a7180a3e63696e927a276cf260ee4250676744
+Author: Maciej Opryszak <226323@student.pwr.wroc.pl>
+Date:   Mon May 8 18:09:16 2017 +0200
+
+    SCR
+
+commit 2beb05fc01da2f5514d4c869edafd3542e66c295
+Author: Maciej Opryszak <226323@student.pwr.wroc.pl>
+Date:   Mon May 8 18:05:52 2017 +0200
+
+    SCR
+
+commit da92aad404295d2dd73e6d5802c04043428b72d9
+Author: Maciej Opryszak <226323@student.pwr.wroc.pl>
+Date:   Mon May 8 17:50:45 2017 +0200
+
+    SCR
+
+git log --pretty=oneline --graph  -skrócony zapis z gwiazdkami
+* 30a7180a3e63696e927a276cf260ee4250676744 SCR
+* 2beb05fc01da2f5514d4c869edafd3542e66c295 SCR
+* da92aad404295d2dd73e6d5802c04043428b72d9 SCR
+  
+git log --pretty=oneline  -skrócony
+30a7180a3e63696e927a276cf260ee4250676744 SCR
+2beb05fc01da2f5514d4c869edafd3542e66c295 SCR
+da92aad404295d2dd73e6d5802c04043428b72d9 SCR
+
+gitk  - dodatkowy program z graficznym interfejsem
+
+
+
